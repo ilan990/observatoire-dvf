@@ -5,6 +5,7 @@ SELECT
 date_mutation,
 valeur_fonciere,
 code_commune,
+code_departement,
 commune,
 nature_mutation,
 type_local,

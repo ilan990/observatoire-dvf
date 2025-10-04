@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: dim_communes
+    columns:
+      - name: code_commune
+        tests:
+          - unique
+          - not_null
+  - name: fact_transactions
+    columns:
+      - name: id
+        tests:
+          - unique
+          - not_null
+      - name: valeur_fonciere
+        tests:
+          - not_null   

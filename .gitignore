@@ -32,3 +32,10 @@ postgres_data/
 
 # Logs
 *.log
+
+# Données DVF
+*.txt
+!requirements*.txt
+
+# Métadonnées Windows
+*.Identifier
